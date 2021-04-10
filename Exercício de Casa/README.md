@@ -24,7 +24,7 @@ A tela inicial deve conter duas partes essenciais:
 - CSS;
 - *Vanilla.js*: não será permitida a utilização de bibliotecas nesse projeto.
 
-## 4. Critérios Obrigatórios do Projeto: 
+## 4. Critérios Técnicos do Projeto: 
 
 1. O formulário de inserção dos livros deve conter campos para os seguintes campos obrigatórios: **Autor, Título, ISBN e Data de Publicação**. Contudo, sintam-se à vontade para inserirem novos campos no formulário caso prefiram.
 
