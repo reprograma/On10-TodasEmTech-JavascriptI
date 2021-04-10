@@ -40,6 +40,8 @@ A tela inicial deve conter duas partes essenciais:
    
 7. É preciso seguir a estrutura de repositório contida nessa pasta "Exercício de Casa".
    
+8. *Estilização*: o estilo dos prints colocados acima são apenas sugestões; a estilização da página fica a critério da aluna.
+   
 ## 5. Itens Adicionais e não Obrigatórios do Projeto: 
 
 1. Permanência dos Dados: encontrar um meio para que as informações permaneçam na tela do usuário mesmo após a atualização da página.
