@@ -1,5 +1,52 @@
 # Desafio: Biblioteca
 
+---
+## Instruções para a realização do projeto:
+
+1. Entre no repositório aqui mencionado (https://github.com/reprograma/On10-TodasEmTech-JavascriptI).
+
+2. **Forkem o repositório para a conta pessoal de vocês**.
+
+3. **Clonem no computador de vocês o repositório forkado em suas contas particulares**.
+
+```
+git clone [nome-do-repositorio-forkado-em-sua-conta-particular-no-GitHub]
+```
+
+**_ATENÇÃO_: Não modifiquem o conteúdo do projeto original forkado, apenas a que você copiou e renomeou!**
+
+4. Crie uma `branch` com o seu nome
+
+```
+git checkout -b "seu-nome"`
+```
+
+5. Entrem na branch criada e resolva o desafio proposto. Para verificar em qual branch voce está:
+
+```
+git branch
+```
+
+Se estiver na master...
+
+```
+git checkout "seu-nome"
+```
+
+6. Ao finalizar a resolução do desafio proposto, façam o `commit` e o `push` da branch criada para a master do projeto que vocês forkaram em suas contas particulares.
+(Verifique que você está na sua branch)
+
+```
+git add .
+git commit -m "texto do seu commit"
+git push origin master
+```
+
+7. Enviem o link do GitHub do projeto que vocês forkaram em suas contas particulares.
+
+
+---
+
 ## 1. Introdução
 
 Vocês estão atuando como *freelancers* em um projeto para uma biblioteca. 
@@ -45,3 +92,4 @@ A tela inicial deve conter duas partes essenciais:
 ## 5. Itens Adicionais e não Obrigatórios do Projeto: 
 
 1. Permanência dos Dados: encontrar um meio para que as informações permaneçam na tela do usuário mesmo após a atualização da página.
+
