@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-
+    <form action="envio_dados" onsubmit="exibirDados(event)">
+        <input type="text" name="nome" id="nomeDaPessoa" placeholder="Digite o seu nome aqui.">
+        <input type="submit" name="enviar" id="botaoDeEnviar" value="Enviar">
+    </form>
+    <div id="resposta"></div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
