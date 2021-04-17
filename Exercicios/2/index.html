@@ -1,21 +1,18 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>DOM</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <h1>Venda de apartamentos</h1>
-    <div>Apartamento de dois dormitórios, clique e veja o preço:</div>
-    <button id="btnAptoDoisDorm">Clique aqui</button>
-    <div id="precoAptoDoisDorm"></div>
-    <br>
-    <hr>
-    <br>
-    <div>Apartamento de três dormitórios, clique e veja o preço:</div>
-    <button id="btnAptoTresDorm">Cliqui aqui</button>
-    <div id="precoAptoTresDorm"></div>
-    <script src="js/script.js"></script>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="envio_dados" onsubmit="exibirDados(event)">
+        <input type="text" name="nome" id="nomeDaPessoa" placeholder="Digite o seu nome aqui.">
+        <input type="submit" name="enviar" id="botaoDeEnviar" value="Enviar">
+    </form>
+    <div id="resposta"></div>
+    < src="./js/2.js"></>
+</body>
 </html>
