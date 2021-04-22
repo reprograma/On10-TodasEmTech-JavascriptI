@@ -1,5 +1,6 @@
 <!DOCTYPE html> <!-- versão do html -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,28 +10,30 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="news">
-            <h1 class="news__title" id="formTitle">Se inscreva para receber mais informações</h1>
+    <h1>Venda de apartamentos</h1>
 
-            <p class="mensagem"> 
-                <!-- textContext insere um TEXTO AQUI! <3 -->
-            </p>
-
-            <form action="" class="news__form">
-                <div class="news__form-group">
-                    <label for="newsInputEmail" class="news__label">
-                        Email
-                    </label>
-                    <input type="email" class="news__input" id="newsInputEmail" placeholder="email@exemplo.com.br">
-                </div>
-                <div class="news__form-group">
-                    <button class="button news__button">Enviar</button>
-                </div>
-            </form>
+    <div>Apartamento de dois dormitórios, clique e veja o preço:</div>
+    <button id="btnAptoDoisDorm">Clique aqui</button>
+    <div id="precoAptoDoisDorm"></div>
+    <div>Apartamento de três dormitórios, clique e veja o preço:</div>
+    <button onclick="mostraPrecoAptoTresDorm()">Clique aqui</button>
+    <div id="precoAptoTresDorm"></div>
+    <form action="" class="news__form">
+        <div class="news__form-group">
+            <label for="newsInputEmail" class="news__label">
+                Email
+            </label>
+            <input type="email" class="news__input" id="newsInputEmail" placeholder="email@exemplo.com.br">
         </div>
+        <div class="news__form-group">
+            <button class="button news__button">Enviar</button>
+        </div>
+    </form>
+    </div>
     </div>
     <script src="script/script.js"></script>
 </body>
+
 </html>
