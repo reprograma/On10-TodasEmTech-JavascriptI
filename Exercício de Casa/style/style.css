@@ -1,0 +1,54 @@
+body {
+    background-image: url(../imagem/astronauta-esta-lendo-um-livro-cinza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;   
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    padding: 70px;
+}
+
+.tabela {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela td {
+   padding: 10px;
+}
+
+.planetalivros {
+    font-style: oblique;
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+}
+
+.botao {
+    margin: 2% auto;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    font-weight: bolder;
+}
+
+.livrocad {
+    color:black;
+}
+
+.livroscadas {
+    color: black;
+}
+
+.dados{
+    margin-top: 1%;
+}
+
+
