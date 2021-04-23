@@ -1,47 +1,47 @@
 /* header */
-
+body {
+  background: linear-gradient(
+    116.79deg,
+    rgba(77, 123, 223, 0.48) 0%,
+    rgba(74, 38, 158, 0.12) 99.45%
+  );
+}
 .name {
-  position: absolute;
   width: 193px;
   height: 44px;
   left: 464px;
   top: 319px;
+  margin-left: 22%;
 
-  font-family: Poppins;
-  font-style: normal;
   font-weight: 500;
   font-size: 25px;
   line-height: 37px;
+  color: #772cbd;
 }
 .profissao {
-  position: absolute;
   width: 130px;
   height: 44px;
   left: 480px;
   top: 355px;
+  margin-left: 35%;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
   line-height: 33px;
 
   color: #772cbd;
 }
 .imgGabrielle {
-  position: absolute;
   width: 151px;
   height: 154px;
   left: 462px;
   top: 148px;
+  margin-top: 22%;
+  margin-left: 22%;
 }
 .margin {
-  position: relative;
-  width: 1920px;
-  height: 1080px;
+  height: 100%;
 
-  background: linear-gradient(252.95deg, #f10ff5 0.34%, #772cbd 99.61%);
-  border-radius: 30px;
+  background-color: linear-gradient(#3c18a0 0.34%, #2331b6 99.61%);
 }
 .retangulo {
   position: absolute;
@@ -52,7 +52,7 @@
 
   background: linear-gradient(
     116.79deg,
-    rgba(255, 255, 255, 0.48) 0%,
+    rgba(71, 18, 170, 0.48) 0.45%,
     rgba(255, 255, 255, 0.12) 99.45%
   );
   backdrop-filter: blur(100px);
@@ -60,28 +60,32 @@
 }
 
 .positon-info {
-  position: absolute;
+  margin-left: 22%;
+
   width: 280px;
   height: 308px;
   left: 470px;
   top: 425px;
 }
 .img-rede-social1 {
-  position: absolute;
+  margin-left: 40%;
+
   width: 66px;
   height: 70px;
   left: 491px;
   top: 425px;
 }
 .img-rede-social2 {
-  position: absolute;
+  margin-left: 28%;
+  padding: 3rem;
   width: 69px;
   height: 67px;
   left: 488px;
   top: 503px;
 }
 .img-rede-social3 {
-  position: absolute;
+  margin-left: 40%;
+
   width: 57px;
   height: 64px;
   left: 498px;
@@ -89,6 +93,12 @@
 }
 
 /* Main */
+
+.borde {
+  border-radius: 2px solid rgb(0, 0, 0);
+  padding: 5px;
+  text-align: center;
+}
 .title {
   position: absolute;
   width: 365px;
@@ -102,139 +112,207 @@
   font-size: 50px;
   line-height: 75px;
 
-  color: rgba(125, 10, 128, 0.9);
+  color: rgba(15, 3, 15, 0.9);
 }
 .campo_retangulo {
   position: absolute;
-  width: 705px;
-  height: 227px;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  width: auto;
+  height: 390px;
   left: 794px;
   top: 298px;
 
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
   background: linear-gradient(
     92.94deg,
-    rgba(255, 254, 254, 0.912) -1.71%,
+    rgba(238, 236, 236, 0.912) -1.71%,
     rgba(255, 254, 254, 0.836) 101.13%
   );
   box-shadow: 12px 12px 28px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
-}
-
-.autor {
-  position: absolute;
-  width: 105px;
-  height: 40px;
-  left: 855px;
-  top: 322px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 33px;
-
   color: rgba(183, 68, 185, 0.9);
 }
+
+.input-group {
+  padding: 2px;
+  display: flex;
+  font-size: 22px;
+  flex-direction: column;
+}
+.input-group-btn {
+  padding-top: 20px;
+  flex-direction: row;
+}
+
 .input_autor {
-  position: absolute;
   width: 228px;
   height: 40px;
-  left: 1009px;
-  top: 322px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
-  line-height: 33px;
-
   color: rgba(183, 68, 185, 0.9);
 }
-.titulo_livro {
-  position: absolute;
-  width: 161px;
-  height: 32px;
-  left: 858px;
-  top: 373px;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 33px;
-
-  color: rgba(183, 68, 185, 0.9);
-}
 .input_titulo {
-  position: absolute;
   width: 228px;
   height: 40px;
-  left: 1010px;
-  top: 373px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
-  line-height: 33px;
 
   color: rgba(183, 68, 185, 0.9);
 }
-.isbn {
-  position: absolute;
-  width: 105px;
-  height: 40px;
-  left: 855px;
-  top: 425px;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 33px;
-
-  color: rgba(183, 68, 185, 0.9);
-}
 .input_isbn {
-  position: absolute;
   width: 228px;
   height: 40px;
-  left: 1010px;
-  top: 425px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
-  line-height: 33px;
 
   color: rgba(183, 68, 185, 0.9);
 }
-.data {
-  position: absolute;
-  width: 84px;
-  height: 33px;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 33px;
-
-  color: rgba(183, 68, 185, 0.9);
-}
 .input_date {
-  position: absolute;
   width: 228px;
   height: 40px;
-  left: 1010px;
-  top: 480px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
-  line-height: 33px;
 
   color: rgba(183, 68, 185, 0.9);
+}
+
+.btn {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  border-width: 0.5px;
+  border-color: rgba(183, 68, 185, 0.9);
+  color: rgba(183, 68, 185, 0.9);
+}
+
+.resposta {
+  display: none;
+  align-items: center;
+  width: auto;
+  margin-left: 45rem;
+  margin-top: 45rem;
+  padding: 3rem;
+  font-size: 16px;
+}
+
+/* tablet */
+
+@media (max-width: 1234px) {
+  .retangulo {
+    height: 50rem;
+    left: 100px;
+    margin-top: -5;
+    margin-left: -5rem;
+  }
+
+  .campo_retangulo {
+    height: 25rem;
+    left: 50px;
+    margin: 10rem;
+    margin-top: 2rem;
+    margin-left: 30rem;
+    font-size: 20px;
+  }
+  .title {
+    height: 12rem;
+    left: 40rem;
+    margin-left: -5rem;
+  }
+  .input-group {
+    font-size: 20px;
+    padding: 10px;
+    height: 60px;
+  }
+  .resposta {
+    display: none;
+    align-items: center;
+    width: auto;
+    margin-left: 30rem;
+    margin-top: 45rem;
+    padding: 3rem;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 974px) {
+  .resposta .retangulo {
+    height: 50rem;
+    left: 50px;
+    margin-top: -5;
+    margin-left: -5rem;
+  }
+
+  .campo_retangulo {
+    height: 25rem;
+    left: 50px;
+    margin: 10rem;
+    margin-top: 2rem;
+    margin-left: 25rem;
+    font-size: 20px;
+  }
+  .title {
+    height: 12rem;
+    left: 33rem;
+    margin-left: -5rem;
+    font-size: 40px;
+  }
+  .input-group {
+    font-size: 16px;
+    padding: 10px;
+    height: 60px;
+  }
+  .resposta {
+    align-items: center;
+    width: auto;
+    margin-left: 25rem;
+    margin-top: 47rem;
+    padding: 1.5rem;
+    font-size: small;
+  }
+}
+/* mobile */
+@media (max-width: 800px) {
+  .retangulo {
+    height: 20rem;
+    margin-top: -12rem;
+    margin-left: -5rem;
+    font-size: 2rem;
+  }
+  .retangulo .resposive {
+    display: none;
+  }
+
+  .resposta {
+    align-items: center;
+    width: auto;
+    margin-left: -0rem;
+    margin-top: 47rem;
+    padding: 1.5rem;
+    font-size: small;
+  }
+  .campo_retangulo {
+    height: auto;
+    margin: 10rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    font-size: 5px;
+    width: auto;
+  }
+  .title {
+    /* height: 25rem;
+    left: 50px;
+    margin-top: 09rem;
+    margin-left: 7rem;
+    left: 50px;
+    font-size: 30px;
+    width: 17rem;
+    color: #100f11; */
+    display: none;
+  }
 }
