@@ -1,0 +1,62 @@
+/* header */
+
+.name {
+  position: absolute;
+  width: 193px;
+  height: 44px;
+  left: 464px;
+  top: 319px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+}
+.profissao {
+  position: absolute;
+  width: 130px;
+  height: 44px;
+  left: 480px;
+  top: 355px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #3a517d;
+}
+.imgGabrielle {
+  position: absolute;
+  width: 151px;
+  height: 154px;
+  left: 462px;
+  top: 148px;
+}
+.margin {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  background: linear-gradient(252.95deg, #f10ff5 0.34%, #772cbd 99.61%);
+  border-radius: 30px;
+}
+.retangulo {
+  position: absolute;
+  width: 413px;
+  height: 930px;
+  left: 348px;
+  top: 115px;
+
+  background: linear-gradient(
+    116.79deg,
+    rgba(255, 255, 255, 0.48) 0%,
+    rgba(255, 255, 255, 0.12) 99.45%
+  );
+  backdrop-filter: blur(100px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+}

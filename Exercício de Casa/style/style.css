@@ -1,0 +1,240 @@
+/* header */
+
+.name {
+  position: absolute;
+  width: 193px;
+  height: 44px;
+  left: 464px;
+  top: 319px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+}
+.profissao {
+  position: absolute;
+  width: 130px;
+  height: 44px;
+  left: 480px;
+  top: 355px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #772cbd;
+}
+.imgGabrielle {
+  position: absolute;
+  width: 151px;
+  height: 154px;
+  left: 462px;
+  top: 148px;
+}
+.margin {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  background: linear-gradient(252.95deg, #f10ff5 0.34%, #772cbd 99.61%);
+  border-radius: 30px;
+}
+.retangulo {
+  position: absolute;
+  width: 413px;
+  height: 930px;
+  left: 348px;
+  top: 115px;
+
+  background: linear-gradient(
+    116.79deg,
+    rgba(255, 255, 255, 0.48) 0%,
+    rgba(255, 255, 255, 0.12) 99.45%
+  );
+  backdrop-filter: blur(100px);
+  border-radius: 30px;
+}
+
+.positon-info {
+  position: absolute;
+  width: 280px;
+  height: 308px;
+  left: 470px;
+  top: 425px;
+}
+.img-rede-social1 {
+  position: absolute;
+  width: 66px;
+  height: 70px;
+  left: 491px;
+  top: 425px;
+}
+.img-rede-social2 {
+  position: absolute;
+  width: 69px;
+  height: 67px;
+  left: 488px;
+  top: 503px;
+}
+.img-rede-social3 {
+  position: absolute;
+  width: 57px;
+  height: 64px;
+  left: 498px;
+  top: 588px;
+}
+
+/* Main */
+.title {
+  position: absolute;
+  width: 365px;
+  height: 63px;
+  left: 821px;
+  top: 150px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+
+  color: rgba(125, 10, 128, 0.9);
+}
+.campo_retangulo {
+  position: absolute;
+  width: 705px;
+  height: 227px;
+  left: 794px;
+  top: 298px;
+
+  background: linear-gradient(
+    92.94deg,
+    rgba(255, 254, 254, 0.912) -1.71%,
+    rgba(255, 254, 254, 0.836) 101.13%
+  );
+  box-shadow: 12px 12px 28px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.autor {
+  position: absolute;
+  width: 105px;
+  height: 40px;
+  left: 855px;
+  top: 322px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(183, 68, 185, 0.9);
+}
+.input_autor {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  left: 1009px;
+  top: 322px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(183, 68, 185, 0.9);
+}
+.titulo_livro {
+  position: absolute;
+  width: 161px;
+  height: 32px;
+  left: 858px;
+  top: 373px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(183, 68, 185, 0.9);
+}
+.input_titulo {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  left: 1010px;
+  top: 373px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(183, 68, 185, 0.9);
+}
+.isbn {
+  position: absolute;
+  width: 105px;
+  height: 40px;
+  left: 855px;
+  top: 425px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(183, 68, 185, 0.9);
+}
+.input_isbn {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  left: 1010px;
+  top: 425px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(183, 68, 185, 0.9);
+}
+.data {
+  position: absolute;
+  width: 84px;
+  height: 33px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(183, 68, 185, 0.9);
+}
+.input_date {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  left: 1010px;
+  top: 480px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: rgba(183, 68, 185, 0.9);
+}
