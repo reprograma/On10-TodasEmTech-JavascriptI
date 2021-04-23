@@ -1,0 +1,110 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    background-color: #353535;
+    font-family: Fira Sans, Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+/* Para todos os títulos, usar a fonte Fira Sans */
+
+.library__header {
+    text-align: center;
+    margin: 2rem;
+}
+
+.library__header > h1 {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.library__form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#enviar {
+    width: 70vw;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4169E1;
+    border: none;
+    color: #ffffff;
+}
+
+.library__text-field > input{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 50px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #BBBBBB;
+    font-size: 16px;
+}
+
+.library__text-field > input > placeholder {
+    color: #eeeeee;
+}
+
+.library__text-field > label {
+    color: #ffffff;
+}
+
+.library__text-field > input:focus {
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+p {
+    font-size: 12px;
+    margin-bottom: 1em;
+}
+
+.library__btn-visualizar {
+    width: 70vw;
+    height: 40px;
+    background-color: teal;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.library__visualizar {
+    display: flex;
+    justify-content: center;
+    margin-top: .8rem;
+}
+
+.livros-salvos {
+    color: #ffffff;
+    text-align: center;
+    max-width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.livro {
+    margin: 0 .2rem;
+    color: #ffffff;
+}
+
+.sessao-livros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
