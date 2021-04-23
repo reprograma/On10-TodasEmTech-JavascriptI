@@ -1,0 +1,23 @@
+* {
+    background-color: rgb(236, 220, 220);
+    margin: 10px;
+    padding: 12px;
+    margin:0auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.news__title {
+    font-size: 45px;
+    font-style: oblique;
+
+}
+
+.news__input {
+    background-color: white;
+    
+}
+
+.news__button {
+    background-color: rgb(248, 248, 142);
+}
