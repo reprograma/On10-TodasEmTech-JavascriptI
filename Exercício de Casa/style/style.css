@@ -1,0 +1,61 @@
+body {
+    background-color: darkslategray;
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+label {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.titulo_site {
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    padding: 0px;
+}  
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.formulario {
+     border:2px solid rgb(255, 255, 255);
+     text-align: center;
+     width: 50%;
+     align-items: center;
+     display: block;
+     margin: auto;
+    
+}
+
+.botton{
+    padding: 5px;
+    background-color:#000;
+    border:1px solid #036;
+    color:#fff;
+    font-weight:bold;
+    align-items: center;
+    display: inline;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tabela {
+    display: inline-table;
+    margin-top: 20px;
+    margin-left: 25%;
+    align-content:space-between;
+    border:1px solid #036;
+    
+}

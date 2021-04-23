@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblio Books</title>
+    <link href="./style/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <img class="img" src="img/book.gif">
+    <h1 class="titulo_site">Biblio Books</h1>
+    <form class="formulario" onsubmit="criarTabela(event)">
+            <label for="titulo">Título</label>
+            <input type="text" size="100" id="titulo">
+            <label for="subtitulo">Subtítulo</label>
+            <input type="text" size="100" id="subtitulo">
+            <label for="isbn">ISBN</label>
+            <input type="text" size="100" id="isbn">
+            <label for="autor">Autor</label>
+            <input type="text" size="100" id="autor">
+            <label for="pages">Páginas</label>
+            <input type="number" id="pages">
+            <label for="data">Data de Publicação</label>
+            <input type="date" id="data">
+            <div>
+                <input class="botton" type="submit">
+            </div>
+    </form>
+    <table class="tabela" style="width: 50%">
+        <thead>
+            <tr>
+                <th>Titulo</th>
+                <th>Subtitulo</th>
+                <th>ISBN</th>
+                <th>Autor</th>
+                <th>Páginas</th>
+                <th>Data de publicação</th>
+                <th>Data Inserção</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela">
+
+        </tbody>
+    </table>
+
+ <script src="./script.js"></script> 
+ 
+</body>
+
+</html>
