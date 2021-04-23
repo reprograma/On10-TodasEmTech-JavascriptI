@@ -45,6 +45,7 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 1rem;
@@ -55,13 +56,14 @@ header {
     border-radius: 1rem;
 }
 
-.formCategorias {
+label {
     font-weight: bold;
-    font-size: 1.4rem;
-    margin: 1rem;
+    font-size: 1.6rem;
 }
 
 form > input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: 30rem;
     padding: 1.4rem;
     font-size: 1.4rem;
@@ -72,8 +74,6 @@ form > input {
 #botaoAdicionar {
     background-color: #2292A4;
     font-size: 1.6rem;
-    text-transform: uppercase;
-    box-shadow: none;
     color: white;
     width: 30rem;
     padding: 1.4rem;
@@ -85,4 +85,23 @@ form > input {
 
 #botaoAdicionar:hover {
     font-weight: bolder;
+}
+
+:placeholder-shown{
+    text-align: center;
+}
+
+.tabela {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem 0rem 3rem 0rem;
+    background-color: white;
+    text-align: center;
+    max-width: 100%;
+    border-radius: 1rem;
 }
