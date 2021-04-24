@@ -1,0 +1,73 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* BODY --- BODY --- BODY */
+
+body{
+    background-color:cadetblue;
+}
+
+/* FORMULÁRIO --- FORMULÁRIO --- FORMULÁRIO */
+label {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 5px;
+    border-color: rgb(163, 102, 10);
+}
+
+.formulario{
+  padding: 50px 20px 30px 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: antiquewhite;
+  margin: 0 100px 0 100px;
+}
+
+.titulo--formulario{
+    font-size: 28px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.texto--formulario {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#botaoDeAdicionar{
+    width: 100%;
+    padding: 7px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-style:none;
+}
+
+/* TABLE --- TABLE --- TABLE */
+
+th{
+    padding-right: 50px;
+}
+
+td{
+    padding-right: 30px;
+    text-align: center;
+}
+
+.tabela {
+    padding: 40px 20px 30px 20px;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: antiquewhite;
+    margin: 20px 100px 0 100px;
+    width: 85%;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form class="formulario" onsubmit="exibirDados(event)">
+        <h1 class="titulo--formulario">Livros</h1>
+        <div class="texto--formulario">
+            <label for="titulo">Título*</label>
+            <input type="text" name="titulo" id="tituloLivro" placeholder="Digite o título do livro aqui">       
+            <label for="autor">Autor (a)*</label>
+            <input type="text" name="autor" id="nomeAutor" placeholder="Digite o nome do autor aqui">
+            <label for="isbn">ISBN*</label>
+            <input type="text" name="isbn" id="isbnLivro" placeholder="Digite o ISBN do livro aqui">
+            <label for="data">Data de publicação*</label>
+            <input type="date" name="data" id="dataPublicacao" placeholder="Digite a data de publicação aqui">
+            <label for="paginas">Páginas*</label>
+            <input type="number" name="paginas" id="paginasLivro" placeholder="Digite a quantidade de páginas aqui">
+        </div>
+        <div class="texto--formulario">
+            <input type="submit" name="adicionar" id="botaoDeAdicionar" value="Adicionar Livro">
+        </div>
+    </form>
+    <table class="tabela">
+        <thead class="cabecalho--tabela">
+            <tr>
+                <th>Titulo</th>
+                <th>Autor(a)</th>
+                <th>ISBN</th>
+                <th>Data de publicação</th>
+                <th>Páginas</th>
+                <th>Data Inserção</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela" class="corpo--tabela">
+        </tbody>
+    </table>
+    <script src="script/script.js"></script>
+</body>
+</html>
