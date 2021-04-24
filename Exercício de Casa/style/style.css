@@ -1,0 +1,156 @@
+body {
+          background: linear-gradient(
+          116.79deg,
+          rgba(55, 168, 40, 0.48) 0%,
+          rgba(207, 206, 209, 0.12) 99.45%
+        );
+  }
+
+.titulo {
+    text-align: center;
+}
+
+.cabecalho {
+    background: url(../img/biblioteca-online.png);
+    height: 20vh;
+    background-size:contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.biblioteca_titulo {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 570px;
+    top: 120px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100px;
+
+    color: rgba(15, 3, 15, 0.9);
+    
+}
+
+.form {
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topicos_form {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    border: 2px solid rgb(99, 97, 97);
+    letter-spacing: 1px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 1%;
+    text-align: center; 
+    margin-top: 60px;
+}
+
+th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+
+}
+
+tr {
+    background-color: rgb(139, 172, 86);
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    height: 4vh;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+}
+
+.excluirEbook {
+    text-align: center;
+    margin-top: 20px;
+}
+
+body {
+    background-color: rgb(157, 223, 151);
+    transition: .4s;
+  }
+
+.titulo {
+    text-align: center;
+}
+
+.cabecalho {
+    background: url(../img/biblioteca-online.png);
+    height: 20vh;
+    background-size:contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form {
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topicos_form {
+    width: 228px;
+    height: 40px;
+    font-size: 20px;
+    color: rgba(10, 29, 8, 0.9);
+}
+}
+
+table {
+    border: 2px solid rgb(88, 38, 5);
+    letter-spacing: 1px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 1%;
+    text-align: center; 
+    margin-top: 60px;
+}
+
+th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+
+}
+
+tr {
+    background-color: rgb(185, 102, 34);
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+td {
+    text-align: center;
+    height: 4vh;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+}
+
+.excluirEbook {
+    text-align: center;
+    margin-top: 20px;
+}
+

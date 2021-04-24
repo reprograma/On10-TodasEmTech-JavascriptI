@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biblioteca Online</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <header class="cabecalho"></header>
+    <div class="biblioteca_titulo">
+        <label for="biblioteca">
+            Biblioteca Online
+        </label>
+    </div>
+
+    <main>
+    <section>
+
+            <form action="" class="form" onsubmit="exibirDados (event)">
+                
+                <div class="topicos_form">
+                    <label for="titulo">
+                        Título
+                    </label>
+                    <input type="text" id="titulo" placeholder="Digite o título do Livro" onfocus=this.value='' required>
+                </div>
+                
+
+                <div class="topicos_form">
+                    <label for="autor">
+                        Autor
+                    </label>
+                    <input type="autor" id="autor" placeholder="Digite o autor do Livro" onfocus=this.value='' required>
+                </div>
+
+                <div class="topicos_form">
+                    <label for="isbn" >
+                        ISBN
+                    </label>
+                    <input type="text" id="isbn" placeholder="Digite o ISBN do Livro">
+                </div>
+
+                <div class="topicos_form">
+                    <label for="paginas">
+                        Páginas
+                    </label>
+                    <input type="text" id="paginas" placeholder="Número de páginas">
+                </div>
+
+                <div class="topicos_form">
+                    <label for="dataPublicacao">
+                        Data de Publicação
+                    </label>
+                    <input type="date" id="dataPublicacao" onfocus=this.value='' required>
+                </div>
+
+                <div class="topicos_form">
+                    <input type="submit" class="button" name="enviar" id="botaoDeEnviar" value="Adicionar Livro">
+                </div>
+
+            <!--   <div id="resposta" class="resposta__box resposta__list">
+                </div> -->
+            </form>
+        </section>
+
+ <section>
+<table class="tabela" id="resposta">
+<tr>
+    <th>Título</th>
+    <th>Autor</th>
+    <th>ISBN</th>
+    <th>Data de Publicação</th>
+    <th>Páginas</th>
+    <th>Data de Cadastro</th>
+</tr>
+</table>
+
+    <div class="excluirEbook">
+        <input type="button" class="botaoExcluir" id="botaoDelete" name="excluir" value="Deletar Livro">
+    </div>
+
+        </section>
+
+    </main>
+    <script src="./script/script.js"></script>
+</body>
+</html>
