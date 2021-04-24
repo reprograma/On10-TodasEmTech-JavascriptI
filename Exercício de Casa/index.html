@@ -12,57 +12,54 @@
 </head>
 
 <body>
-    
-    <div>
 
-        <h1 class="teste">Sua lista de livros!</h1>
-        <p>Abaixo consulte seu livro:</p>
+
+
+<img class="fundo" src="../Exercício de Casa/img/livro.png">
+
+    <div class="titulo">
+
+        <h1 >Cadastro de Livros</h1>
+        <p>Abaixo faça cadastro:</p>
 
     </div>
-    <form id="cadastro-livro">
 
-            <div>
-                <label>Titulo:</label>
-                <input type="text" name="titulo" id="titulo">
-            </div>
+    <form class="formulario" id="cadastro-livro">
 
-            <div>
-                <label>Autor:</label>
-                <input type="text" name="autor" id="autor">
-            </div>
 
-            <div>
-                <label>ISBN</label>
-                <input type="text" name="isbn" id="ISBN">
-            </div>
 
-            <div>
-                <label>Data de publicação:</label>
-                <input type="text" name="dataPublicacao" id="data-publicacao">
-            </div>
+        <div>
+            <label>Titulo:</label>
+            <input type="text" name="titulo" id="titulo" data-min-length="4">
+        </div>
 
-            <div>
-                <label>Página:</label>
-                <input type="text" name="pagina" id="pagina">
-            </div>
+        <div class="form-input">
+            <label>Autor:</label>
+            <input type="text" name="autor" id="autor">
+        </div>
+
+        <div class="form-input">
+            <label>ISBN</label>
+            <input type="text" name="isbn" id="ISBN">
+        </div>
+
+        <div class="form-input">
+            <label>Data de publicação:</label>
+            <input type="text" name="dataPublicacao" id="data-publicacao">
+        </div>
+
+        <div class="form-input">
+            <label>Página:</label>
+            <input type="text" name="pagina" id="pagina">
+        </div>
 
     </form>
 
-    
-    <button id="button-acesseaqui" type="submit" onClick="cadastrarLivro()">
-        Acesse aqui
+    <p class="validation-error hidden"></p>
+
+    <button class="button" id="button-acesseaqui" type="submit" onClick="cadastrarLivro()">
+        Cadastre
     </button>
-
-    <table class="lista-livros">
-        <thead>
-            <tr><th>Titulo</th>
-        </thead>
-        <tbody id="table-body">
-        
-        </tbody>
-    </table>
-
-
 
 
 
