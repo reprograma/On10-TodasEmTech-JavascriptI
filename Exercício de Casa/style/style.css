@@ -1,0 +1,47 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+    ;
+}
+
+body{
+    background-color: rgba(34, 51, 51, 0.911);
+}
+
+.news__form-group{
+    display:grid;
+    margin: 5%;
+    color: white;
+}
+
+.news__input{
+    margin-bottom: 1%;
+    color: black;
+}
+
+.news__title{
+    text-align: center;
+    margin-top: 3%;
+    color:rgb(255, 255, 255);
+    
+}
+
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.img {
+    min-height: 40px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    opacity: 61%;
+}
