@@ -1,46 +1,46 @@
 
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-/* BODY --- BODY --- BODY */
 
 body{
     background-color:cadetblue;
 }
 
+/* MOBILE FIRST --- MOBILE FIRST */
+
 /* FORMULÁRIO --- FORMULÁRIO --- FORMULÁRIO */
+
 label {
-    font-size: 16px;
+    font-size: 13px;
     padding-bottom: 5px;
 }
 
 input{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 5px;
     border-color: rgb(163, 102, 10);
 }
 
 .formulario{
-  padding: 50px 20px 30px 20px;
-  display: flex;
-  justify-content: space-around;
-  text-align: left;
-  flex-direction: column;
+  padding: 20px 20px 20px 20px;
   background-color: rgba(0, 0, 0, 0.7);
   color: antiquewhite;
-  margin: 0 100px 0 100px;
+  border-radius: 40px;
+  margin: 10px 10px 10px 50px;
+  width: 80%;
 }
 
 .titulo--formulario{
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     color: antiquewhite;
 }
 
 .texto--formulario {
-    padding: 10px;
+    padding: 8px;
     display: flex;
     flex-direction: column;
 }
@@ -49,25 +49,214 @@ input{
     width: 100%;
     padding: 7px;
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(103, 208, 184);
     border-style:none;
 }
 
-/* TABLE --- TABLE --- TABLE */
+/* TABELA --- TABELA --- TABELA */
 
 th{
-    padding-right: 50px;
+    padding: 2px;
+    font-size: 10px;
 }
 
 td{
-    padding-right: 30px;
-    text-align: center;
+    word-break: break-word;
+    padding-bottom: 15px;
+}
+
+.section-tabela{
+    display: flex;
 }
 
 .tabela {
-    padding: 40px 20px 30px 20px;
-    background-color: rgb(0, 0, 0, 0.8);
+    padding: 8px;
+    background-color: rgb(0, 0, 0, 0.7);
     color: antiquewhite;
-    margin: 20px 100px 0 100px;
-    width: 85%;
+    margin: 5px 5px 5px 50px;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.corpo--tabela{
+    font-size: 9px;
+    text-align: center;
+}
+
+.delete{
+    font-size: 9px;
+    width: 17px;
+    height: 17px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/botao-lixeira.png);
+    border-style: none;
+    border-radius: 2px;
+}
+
+/* TABLET --- TABLET --- TABLET */
+
+@media (min-width: 768px) {
+
+    /* FORMULÁRIO --- FORMULÁRIO --- FORMULÁRIO */
+    label {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    input{
+        margin-bottom: 15px;
+        padding: 5px;
+        font-size: 13px;
+        border-color: rgb(163, 102, 10);
+    }
+
+    .formulario{
+        padding: 30px 20px 30px 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: antiquewhite;
+        margin: 10px 100px 0 100px;
+        border-radius: 50px;
+    }
+
+    .titulo--formulario{
+        font-size: 30px;
+        text-align: center;
+        color: antiquewhite;
+    }
+
+    .texto--formulario {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #botaoDeAdicionar{
+        width: 100%;
+        padding: 7px;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border-style:none;
+        font-size: 13px;
+    }
+
+    /* TABLE --- TABLE --- TABLE */
+
+    th{
+        font-size: 15px;
+    }
+
+    td{
+        padding-right: 15px;
+        font-size: 13px;
+        word-break: normal;
+    }
+
+    .tabela {
+        padding: 20px 15px 20px 15px;
+        background-color: rgb(0, 0, 0, 0.7);
+        color: antiquewhite;
+        margin: 10px 50px 10px 100px;
+        border-radius: 25px;
+    }
+
+    .delete{
+        font-size: 9px;
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/botao-lixeira.png);
+        border-style: none;
+        border-radius: 2px;
+    }
+    
+}
+
+/* DESKTOP --- DESKTOP */
+
+@media (min-width: 1330px) {
+
+    /* FORMULÁRIO --- FORMULÁRIO --- FORMULÁRIO */
+    label {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    input{
+        margin-bottom: 15px;
+        padding: 5px;
+        font-size: 15px;
+        border-color: rgb(163, 102, 10);
+    }
+
+    .formulario{
+        padding: 20px 20px 30px 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: antiquewhite;
+        margin: 10px 100px 0 150px;
+        border-radius: 50px;
+    }
+
+    .titulo--formulario{
+        font-size: 40px;
+        text-align: center;
+        color: antiquewhite;
+    }
+
+    .texto--formulario {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #botaoDeAdicionar{
+        width: 100%;
+        padding: 7px;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border-style:none;
+        font-size: 15px;
+    }
+
+    /* TABELA --- TABELA --- TABELA */
+
+    th{
+        font-size: 20px;
+    }
+
+    td{
+        padding-right: 15px;
+        font-size: 18px;
+        word-break: normal;
+    }
+
+    .tabela {
+        padding: 20px;
+        background-color: rgb(0, 0, 0, 0.7);
+        color: antiquewhite;
+        margin: 20px 100px 10px 150px;
+        border-radius: 40px;
+    }
+
+    .delete{
+        font-size: 9px;
+        width: 30px;
+        height: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/botao-lixeira.png);
+        border-style: none;
+        border-radius: 2px;
+    }
+    
 }

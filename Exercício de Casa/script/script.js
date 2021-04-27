@@ -20,7 +20,7 @@ function exibirDados(event) {
             <td> ${pegaData}</td>
             <td> ${pegaPaginas}</td>
             <td> ${dataInsercao}, ${horarioInsercao}</td>
-            <td> <button class="delete">Remover</button></td>
+            <td> <button class="delete"></button></td>
         </tr>
         `
         limparCampo();
