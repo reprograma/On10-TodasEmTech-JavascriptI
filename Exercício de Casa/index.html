@@ -16,24 +16,24 @@
         <section class="section-formulario">
             <form action="envia_dados_para_tabela" onsubmit="exibirDadosTabela(event)">
                 <div class="div-formulario">
-                    <label class="legenda-formulario" id="titulo">Título</label>
-                    <input class="caixaDeTexto-formulario" type="text" id="tituloDoLivro">
+                    <label class="legenda-formulario" id="titulo" for="tituloDoLivro">Título</label>
+                    <input class="caixaDeTexto-formulario" type="text" id="tituloDoLivro" name="tituloDoLivro">
                 </div>
                 <div class="div-formulario">
-                  <label class="legenda-formulario">Autor</label>
-                  <input class="caixaDeTexto-formulario" type="text" id="autorDoLivro">  
+                  <label class="legenda-formulario" for="autorDoLivro">Autor</label>
+                  <input class="caixaDeTexto-formulario" type="text" id="autorDoLivro" name="autorDoLivro">  
                 </div>
                 <div class="div-formulario">
-                    <label class="legenda-formulario">ISBN</label>
-                    <input class="caixaDeTexto-formulario" type="number"  id="isbnDoLivro">  
+                    <label class="legenda-formulario" for="isbnDoLivro">ISBN</label>
+                    <input class="caixaDeTexto-formulario" type="number"  id="isbnDoLivro" name="isbnDoLivro">  
                 </div>
                 <div class="div-formulario">
-                    <label class="legenda-formulario">Data de Publicação</label>
-                    <input class="caixaDeTexto-formulario" type="date" id="dataDePublicacaoDoLivro">  
+                    <label class="legenda-formulario" for="dataDePublicacaoDoLivro">Data de Publicação</label>
+                    <input class="caixaDeTexto-formulario" type="date" id="dataDePublicacaoDoLivro" name="dataDePublicacaoDoLivro">  
                 </div>
                 <div class="div-formulario">
-                    <label class="legenda-formulario">Páginas</label>
-                    <input class="caixaDeTexto-formulario" type="number"  id="qtdPaginasDoLivro">  
+                    <label class="legenda-formulario" for="qtdPaginasDoLivro">Páginas</label>
+                    <input class="caixaDeTexto-formulario" type="number"  id="qtdPaginasDoLivro" name="qtdPaginasDoLivro">  
                 </div>
                 <div class="div-botao-formulario">
                     <input type="submit" id="botaoDeAdicionarLivro" class="botaoFormulario">

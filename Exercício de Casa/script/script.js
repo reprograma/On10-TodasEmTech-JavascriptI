@@ -1,15 +1,15 @@
 function exibirDadosTabela(event){
     event.preventDefault();
 
-    let tituloDoLivro = document.querySelector('#tituloDoLivro').value;
-    let autorDoLivro = document.querySelector('#autorDoLivro').value;
-    let isbnDoLivro = document.querySelector('#isbnDoLivro').value;
-    let dataDePublicacaoDoLivro = document.querySelector('#dataDePublicacaoDoLivro').value;
-    let qtdPaginasDoLivro = document.querySelector('#qtdPaginasDoLivro').value;
+    let tituloDoLivro = document.getElementById('tituloDoLivro').value;
+    let autorDoLivro = document.getElementById('autorDoLivro').value;
+    let isbnDoLivro = document.getElementById('isbnDoLivro').value;
+    let dataDePublicacaoDoLivro = document.getElementById('dataDePublicacaoDoLivro').value;
+    let qtdPaginasDoLivro = document.getElementById('qtdPaginasDoLivro').value;
     let dataInsercaoLivro = new Date().toLocaleDateString('pt-br');
     let horarioInsercaoLivro = new Date().toLocaleTimeString('pt-br');
 
-    if(tituloDoLivro==="" ||  autorDoLivro==="" ||  isbnDoLivro==="" || dataDePublicacaoDoLivro==="" || qtdPaginasDoLivro==="" || dataInsercaoLivro===""){
+    if(tituloDoLivro==="" ||  autorDoLivro==="" ||  isbnDoLivro==="" || dataDePublicacaoDoLivro==="" || qtdPaginasDoLivro===""){
         alert("Os dados não foram inseridos corretamente. Tente novamente!")
     }else{
         document.getElementById("corpo-tabela").innerHTML += `
@@ -21,12 +21,15 @@ function exibirDadosTabela(event){
                 <td>${qtdPaginasDoLivro}</td>
                 <td>${dataInsercaoLivro}</td>
                 <td>${horarioInsercaoLivro}</td>
-                <td><button id='botao-tabela' class='botao-tabela' onclick="removerLivroTabela(event)" ></button></td> 
+                <td><button id='botao-tabela' class='botao-tabela'></button></td> 
             </tr>
         `
-    };
+    }
 }
 
-function removerLivroTabela(event){
-    document.getElementById("tr-tabela").remove();
-}
+document.getElementById('corpo-tabela').addEventListener('click', function removerLinhaLivro(event) {
+    if (event.target.className === "botao-tabela") {
+        let botao = event.target.parentElement;
+        botao.parentElement.remove();
+    }
+})
