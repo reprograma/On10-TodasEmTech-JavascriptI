@@ -10,7 +10,7 @@ function exibirDados(event) {
     let horarioInsercao = new Date().toLocaleTimeString('pt-br');
 
     if (pegaTitulo === "" || pegaAutor === "" || pegaIsbn === "" || pegaData === "" || pegaPaginas === "") {
-        alert("Campo obrigatório não preenchido")
+        alert("Insira uma tarefa")
     } else {
         document.getElementById('corpoTabela').innerHTML += `
         <tr >
