@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Listagem de Livros</title>
+</head>
+ 
+<body>
+ 
+    <form action="" id="formulario" onsubmit="exibirDados(event)">
+        <div class="titulo">
+            <img src="./../../assets/listagemlivros.png" alt="Imagem de Livro">
+            <h1>ListBooks</h1>
+            <img src="./../../assets/" alt="Menina lendo">
+        </div>
+        <div>
+            <label for="title">Título *</label>
+            <input type="text" name="title" id="title" required>
+            <br>
+            <br>
+            <label for="subtitle">Subtítulo</label>
+            <input type="text" id="subtitle">
+            <br>
+            <br>
+            <label for="author">Autor *</label>
+            <input type="text" id="author" required>
+            <br>
+            <br>
+            <label for="pages">Páginas </label>
+            <input type="number" min="0" id="pages">
+            <br>
+            <br>
+            <label for="date">Data de Publicação *</label>
+            <input type="date" id="date" required>
+            <br>
+            <br>
+            <label for="isbn ">ISBN *</label>
+            <input type="text" id="isbn" required>
+            <br>
+            <br>
+            <div class="salvar">
+                <input type="submit" id="enviar" value="Salvar">
+            </div>
+        </div>
+    </form>
+    <section id="templateTable">
+        <h2>Listagem de Livros Inseridos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Subtítulo</th>
+                    <th>Autor</th>
+                    <th>Páginas</th>
+                    <th>Data de Publicação</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="texto">
+          
+ 
+ 
+            </tbody>
+        </table>
+    </section>
+    <script src="./script/script2.js"></script>
+</body>
+ 
+</html>
+ 
